@@ -24,7 +24,6 @@ scaler = joblib.load("scaler.pkl")
 log_acc = 0.85   # replace with Logistic Regression test accuracy
 svm_acc = 0.88   # replace with SVM test accuracy
 
-st.title("Heart Disease Prediction App ❤️")
 
 st.write("### Enter Patient Information:")
 
